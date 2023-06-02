@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="middle-container">
+        <!--type_1-->
+        <div id="type_1"  class="box">
+            <h4>
+                Important & Urgent 
+                <button onclick = "deleteTodos(this)" class="delete">Update </button>
+                <button onclick = "inputTodo(this)" class="btn btn-sm btn-default">ADD</button>
+            </h4>
+            <input id = "input_type_1" class="theInput" type='text' ><span class='glyphicon glyphicon-remove' aria-hidden='true'></span>
+            <ul id="list_type_1"></ul>
+        </div>
+        <!--type_2-->
+        <div id="type_2" class="box">
+            <h4>
+                Important & Not Urgent
+                <button onclick = "deleteTodos(this)" class="delete">Update </button>
+                <button onclick="inputTodo(this)" class="btn btn-sm btn-default" data-id="nu">ADD</button>
+            </h4>
+            <input  id = "input_type_2" class="theInput" type='text' ><span class='glyphicon glyphicon-remove' aria-hidden='true'></span>
+            <ul id="list_type_2"></ul>
+        </div>
+        <!--type_3-->
+        <div id="type_3" class="box">
+            <h4>
+                Not Important & Urgent
+                <button onclick = "deleteTodos(this)" class="delete">Update </button>
+                <button onclick="inputTodo(this)" class="btn btn-sm btn-default" data-id="nu">ADD</button>
+            </h4>
+            <input  id = "input_type_3" class="theInput" type='text' ><span class='glyphicon glyphicon-remove' aria-hidden='true'></span>
+            <ul id="list_type_3"></ul>
+        </div>
+        <!--type_4-->
+        <div id="type_4" class="box">
+            <h4>
+                Not Important & Not Urgent
+                <button onclick = "deleteTodos(this)" class="delete">Update </button>
+                <button onclick="inputTodo(this)" class="btn btn-sm btn-default" data-id="nu">ADD</button>
+            </h4>
+            <input id = "input_type_4" class="theInput" type='text'><span class='glyphicon glyphicon-remove' aria-hidden='true'></span>
+            <ul id="list_type_4"></ul>
+        </div>
+    </div>
+    <script src="/static/main.js"></script>
+</body>
+</html>

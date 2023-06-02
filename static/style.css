@@ -1,0 +1,55 @@
+
+h4 { text-align: center; color: rgba(0,0,0,0.5); }
+
+ul { padding-top: 15px; }
+li { list-style-type: none;}
+
+ul li {
+	cursor: pointer;
+}
+
+.delete{
+	float: right;
+	margin-right: 2%;
+}
+
+.box { 
+	float: left;
+	width: 50%; 
+	/*padding: 10px;*/
+	overflow: auto;
+    height: 50vh;
+}
+
+button { 
+	float: left; 
+	background: rgba(0,0,0,0.1) !important;
+	border: none !important;
+	color: rgba(0,0,0,0.3) !important;
+	cursor: pointer;
+}
+
+.theInput {
+    border: 1px;
+    border-color: darkslategray;
+    background: rgba(0,0,0,0.07);
+    width: 50%;
+}
+
+.glyphicon { 
+	color: rgba(0,0,0,0.1); 
+	position: relative;
+	left: -27px;
+	top: 2px;
+	cursor: pointer;
+	padding: 6px;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+#type_1 { background: #afa; }
+#type_2 { background: #aaf; }
+#type_3 { background: #ffa; }
+#type_4 { background: #fff; }
